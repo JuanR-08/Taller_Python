@@ -3,4 +3,4 @@ edad = int(input(" ingrese su edad: "))
 
 aproximado = ( edad * 12)
 
-print(f"has vivido aproximadamente:, {aproximado}meses")
+print(f"has vivido aproximadamente: {aproximado}meses")
