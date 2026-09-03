@@ -1,0 +1,8 @@
+# ejercicio 3
+num1 = float(input(" ingrese primer numero: "))
+num2 = float(input(" ingrese segundo numero: "))
+
+print(f" la suma es: {num1 + num2}")
+print(f" la resta es: {num1 - num2}")
+print(f" la multiplicación es: {num1 * num2}")
+print(f" la división es: {num1 / num2}")
