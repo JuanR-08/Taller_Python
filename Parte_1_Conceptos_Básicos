@@ -1,0 +1,18 @@
+#¿Qué función se utiliza en Python para pedir datos al usuario?
+#Se utiliza el input, ya que este espera a que se digite un dato que haya sido
+solicitado previamente
+
+#¿Qué tipo de dato devuelve input() por defecto?
+#Por defecto devuelve un dato en cadena de texto es decir "str"
+
+#¿Qué diferencia existe entre int() y float()?
+#int está indicando que el tipo de variable es un número entero
+y float indica que es números decimales
+
+#¿Para qué sirve el operador + cuando se trabaja con cadenas?
+#Para que a un texto se le adicione otro, con el detalle de que este va todo pegado
+
+#¿Cuál es la diferencia entre / y // en Python?
+# "/" representa una división en la que tiene valores exactos decimales y todo, en cambio
+"//" está haciendo la división de piso la cual a la hora de resolver, el resultado en caso
+de que sea decimal, va a ser el número entero más cercano
