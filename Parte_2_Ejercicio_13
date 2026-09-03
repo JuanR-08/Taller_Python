@@ -1,0 +1,6 @@
+# ejercicio 13
+nombre = str(input(" ingrese su nombre: "))
+carrera = str(input(" ingrese su carrera: "))
+universidad = str(input(" ingrese en que universidad estudia: "))
+
+print(f" hola {nombre} , estudias {carrera} , en la universidad {universidad} ")
