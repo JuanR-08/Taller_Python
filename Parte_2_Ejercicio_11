@@ -1,0 +1,4 @@
+# ejercicio 11
+texto = str(input(" ingrese una palabra: "))
+print(texto.upper())
+print(texto.lower())
