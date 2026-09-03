@@ -1,0 +1,22 @@
+# Reto final
+
+nombre_vendedor = input(" ingrese nombre del Vendedor: ")
+nombre_cliente = input(" ingrese nombre del cliente: ")
+Producto = input(" ingrese nombre del producto: ")
+cantidad = int(input(" ingrese cantidad a llevar: "))
+precio_unitario = float(input(" ingrese precio unitario: "))
+
+Subtotal = cantidad * precio_unitario
+descuento = Subtotal * 0.10
+iva = (Subtotal - descuento) * 0.19
+total = Subtotal - descuento + iva
+
+print("-------- VENTA---------")
+print(f"vendedor: {nombre_vendedor}")
+print(f"cliente: {nombre_cliente}")
+print(f"producto: {Producto}")
+print(f"cantidad: {cantidad}")
+print(f"Subtotal: {Subtotal}")
+print(f"descuento: {descuento}")
+print(f"IVA: {iva}")
+print(f"TOTAL A PAGAR: ${total}")
