@@ -1,0 +1,6 @@
+# reto 2 conversor de températura
+Celsius = float(input(" ingrese temperatura en grados celsius: "))
+
+Fahrenheit = ( Celsius * (9 / 5)) + 32
+
+print(f" la temperatura en grados Fahrenheit es: {Fahrenheit} ")
