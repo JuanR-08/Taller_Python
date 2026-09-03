@@ -1,6 +1,6 @@
 # Reto 4. Factura sencilla
-nombre_cliente = str(input(" ingrese su nombre: "))
-producto = str(input(" ingrese el nombre del producto: "))
+nombre_cliente = input(" ingrese su nombre: ")
+producto = input(" ingrese el nombre del producto: ")
 precio = float(input(" ingresa precio: "))
 cantidad = int(input(" cuantos va a llevar: "))
 
