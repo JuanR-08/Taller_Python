@@ -1,7 +1,7 @@
 # ejercicio 5
 
-nombre = str(input( " ingrese su nombre: "))
-apellido1 = str(input(" ingrese su primer apellido: "))
-apellido2 = str(input(" ingrese su segundo apellido: "))
+nombre = input( " ingrese su nombre: ")
+apellido1 = input(" ingrese su primer apellido: ")
+apellido2 = input(" ingrese su segundo apellido: ")
 
 print(f" nombre completo: {nombre} {apellido1} {apellido2} ")
