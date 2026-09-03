@@ -1,0 +1,4 @@
+# ejercicio 2
+num1 = float(input(" ingrese primer numero: "))
+num2 = float(input(" ingrese segundo numero: "))
+print(f" la suma es: {num1 + num2}")
