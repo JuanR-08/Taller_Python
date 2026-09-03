@@ -1,0 +1,4 @@
+# ejercicio 12
+nombre = str(input(" ingrese nombre completo: "))
+cantidad_caracteres = len(nombre)
+print(f"tu nombre tiene {cantidad_caracteres} caracteres")
