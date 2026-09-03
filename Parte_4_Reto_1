@@ -1,5 +1,5 @@
 # reto 1 restaurante
-nombre_cliente = str(input(" ingrese nombre del cliente: "))
+nombre_cliente = input(" ingrese nombre del cliente: ")
 precio_comida = float(input(" ingrese el precio de la comida: "))
 precio_bebida = float(input(" ingrese precio de la bebida: "))
 cantidad_personas = int(input(" ingrese cantidad de personas: "))
