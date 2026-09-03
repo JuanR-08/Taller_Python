@@ -1,0 +1,18 @@
+# Reto 4. Factura sencilla
+nombre_cliente = str(input(" ingrese su nombre: "))
+producto = str(input(" ingrese el nombre del producto: "))
+precio = float(input(" ingresa precio: "))
+cantidad = int(input(" cuantos va a llevar: "))
+
+Subtotal = (cantidad * precio)
+iva = (Subtotal * 0.19)
+total_a_pagar = (Subtotal + iva)
+
+print(" ------- FACTURA --------")
+print(f"cliente: {nombre_cliente}")
+print(f"producto: {producto}")
+print(f"cantidad: {cantidad}")
+print(f" precio unitario: {precio}")
+print(f" subtotal: {Subtotal}")
+print(f"IVA: {iva}")
+print(f"total: {total_a_pagar}")
