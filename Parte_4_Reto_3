@@ -1,0 +1,7 @@
+# Reto 3. Conversor de pesos a dólares
+pesos = float(input("ingrese la cantidad de pesos: "))
+valor_dolar = float(input(" ingrese el valor actual del dolar: "))
+
+dolares = (pesos / valor_dolar)
+
+print(f" con: {pesos} pesos, obtienes aproximadamente {dolares} dolares ")
